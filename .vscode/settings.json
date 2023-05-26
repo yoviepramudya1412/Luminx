@@ -1,0 +1,15 @@
+{
+  "tailwindCSS.emmetCompletions": true,
+  "html-css-class-completion.enableEmmetSupport": true,
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.useInlineCompletions": true,
+  "emmet.showSuggestionsAsSnippets": true,
+  "emmet.preferences": {},
+  "html.completion.attributeDefaultValue": "singlequotes",
+  "html.format.indentHandlebars": true,
+  "html.format.indentInnerHtml": true,
+  "html.format.templating": true,
+  "[html]": {
+    "editor.linkedEditing": true
+  }
+}
