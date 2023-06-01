@@ -19,9 +19,9 @@
     <!--Static CSS-->
     <link rel="stylesheet" href="{% static 'css/style.css' %}" />
     <!--Favicon-->
-    <link rel="shorcut icon" href="{% static 'img/favicon.ico' %}" />
+    <link rel="shorcut icon" href="{% static 'image/favicon.ico' %}" />
     <!-- Logo -->
-    <link rel="shorcut icon" href="{% static 'img/logo.ico' %}" />
+    <link rel="shorcut icon" href="{% static 'image/logo.ico' %}" />
 
     <title>{% block title %}Home{% endblock title %}</title>
   </head>
@@ -39,12 +39,7 @@
         </div>
         <div>
           {% block nav-btn %}
-          <a
-            href="{% url 'data_read' %}"
-            id="btn-nav"
-            class="btn btn-outline-light"
-            >Viviechan</a
-          >
+          <a href="{% url 'data_read' %}" id="btn-nav" class="btn btn-outline-light">Viviechan</a>
           {% endblock nav-btn %}
         </div>
       </nav>
@@ -56,10 +51,7 @@
     <!-- END // wraper-->
 
     <!--Footer-->
-    <footer
-      class="bg-dark text-center text-lg-start"
-      id="footer"
-      style="color: #fff">
+    <footer class="bg-dark text-center text-lg-start" id="footer" style="color: #fff">
       <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
         &copy;{% now "Y" %} Copyright:
         <a class="text-light" style="text-decoration: none">
